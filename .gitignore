@@ -1,0 +1,30 @@
+# H:/CC_Agent/.gitignore
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+.env
+.env.local
+
+# Electron
+app/node_modules/
+out/
+
+# Client Renderer
+client/renderer/node_modules/
+client/renderer/dist/
+
+# Server
+server/node_modules/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
